@@ -24,3 +24,5 @@ select * from tb_funcionarios where salario > 2000.00;
 delete from tb_funcionarios where id = 1;
 
 select * from tb_funcionarios where salario < 2000.00;
+
+update tb_funcionarios set salario = 6000.00 where id = 5;
